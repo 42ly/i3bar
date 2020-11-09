@@ -1,0 +1,9 @@
+# ...
+
+# Add this to your i3 config
+
+exec nohup python3 ~/.config/i3/cockscraper.py
+bar {
+	status_command ~/.config/i3/bar.sh
+        # ...
+}
